@@ -1,0 +1,139 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+
+/* Logo */
+#logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+#logoimage {
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* Menu Navigation */
+.menu {
+  text-decoration: underline;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#bodycontainer {
+  margin-top: 67px;
+}
+
+/* Top Background */
+#top-background {
+display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 700px; /* Min-Height for Flex Box */
+  align-items: center;
+  justify-content: center;
+}
+
+#banner {
+  width: 1200px;
+  background-color: black;
+  min-height: 150px; /* Min-Height for Flex Box */
+}
+
+/* Tea of the Month Section*/
+
+#featuredtea {
+  display: flex;
+}
+
+#teacontainer {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.tea {
+display: inline-block;
+text-align: center;
+flex-wrap: wrap;
+}
+
+.teaimage {
+  width: 300px;
+  height: 200px;
+}
+
+.tea-heading {
+  display: block;
+}
+
+/* Locations */
+
+#locationscontainer {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px; /* Min-Height for Flex Box */
+  width: 100%;
+  overflow: auto;
+}
+
+#locationheading {
+  padding-top: 30px;
+}
+
+#locationlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.location {
+  flex-basis: 300px;
+  height: auto;
+  background-color: black;
+  margin-top: 5px;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* Footer Section */
+footer {
+  width: 100%;
+  height: 200px;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* Fonts & Colors */
+a {
+  color: seashell;
+}
